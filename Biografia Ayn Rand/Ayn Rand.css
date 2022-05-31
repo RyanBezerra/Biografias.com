@@ -21,6 +21,10 @@ header{
     font-weight: 400;
 }
 
+.barra:hover {
+    font: red;
+}
+
 .registro {
     left: 50px;
     padding-right: 70px;
