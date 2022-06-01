@@ -1,20 +1,60 @@
+html {
+    height: 0%;
+    width: auto;
+}
+a {
+    text-decoration: none;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    overflow: scroll;
+    margin: auto;  
 }
+
 header{
     background-color: rgb(11, 9, 10);
-    margin: -8px;
     font-size: x-small;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
-a {
-    text-decoration: none;
+main{
+    background-color:rgba(0, 0, 0, 0.938);
+    position: relative;
 }
+
+aside {
+    float: right;
+    margin-bottom: 100%;
+}
+
+article {
+    
+}
+
+article h1 {
+    font-weight: 50;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(177, 167, 166);
+    padding: 15px;
+}
+
+article p {
+    font-weight: 50;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(177, 167, 166);
+}
+
+header, main, aside, footer {
+	padding: 5px;
+}
+
 
 .barra{
     color: white;
@@ -23,12 +63,10 @@ a {
     padding-right: 100px;
     padding-top: 15px;
     font-weight: 400;
-    
 }
 
 .barra:hover {
-    color: red;
-    
+    color: red;  
 }
 
 .registro {
@@ -47,7 +85,6 @@ a {
     overflow: hidden;
     z-index: 1;
     font-family: inherit;
-
 }
    
    .registro::before {
@@ -61,42 +98,11 @@ a {
     transform: translateX(-100%);
     transition: all .3s;
     z-index: -1;
-
 }
    
    .registro:hover::before {
-    transform: translateX(0);
-    
+    transform: translateX(0); 
 }
-
-main{
-    background-color:rgba(0, 0, 0, 0.938);
-    position: relative;
-    margin: 8px;
-    margin-right: -8px;
-    margin-left: -8px;
-
-}
-
-#main1{
-    color:rgb(177, 167, 166);
-    position: relative;
-    padding-right: 35%;
-    left: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: flex-start;
-    
-}
-
-.font{
-    font-weight: 50;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-
 
 .barra1{
     color: white;
@@ -106,11 +112,4 @@ main{
     padding-top: 10px;
     font-weight: 400;
 }
-
-.foto{
-    position: absolute;
-    left: 1000px;
-    bottom: 870px;
-    width: 300px;
-}
-
+  
